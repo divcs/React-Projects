@@ -5,8 +5,8 @@
 }
 
 body {
-  background: rgb(36, 36, 36);
-  color: #fff;
+  background: rgb(61, 162, 167);
+  color: #d5cccc;
   font-family: sans-serif;
   height: 100vh;
   display: flex;
@@ -22,7 +22,7 @@ body {
 .accordion-card {
   margin: 20px;
   padding: 20px;
-  background: rgb(73, 73, 73);
+  background: rgb(30, 59, 55);
 }
 
 .header {
