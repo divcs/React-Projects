@@ -26,7 +26,7 @@ function ToggleBackgroundColor() {
       </button>
       <section className='content'>
         <h1>
-          Welcome To A <br /> Real World..
+          Color Toggler <br /> welcomes you!
         </h1>
       </section>
     </section>
