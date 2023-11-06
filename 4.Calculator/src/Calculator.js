@@ -21,7 +21,7 @@ const Calculator = () => {
     <form class='calculator' name='calc'>
       <input type='text' class='value' value={inputvalue} />
       <span class='num clear' onClick={() => clear()}>
-        c
+        C
       </span>
       <span onClick={() => display('/')}>/</span>
       <span onClick={() => display('*')}>*</span>
