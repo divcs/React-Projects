@@ -17,10 +17,29 @@
 
 body {
   font-size: var(--font-size);
+  font-family: 'Roboto', sans-serif;
+}
+a {
+  text-decoration: none;
 }
 .navbar {
   height: 55px;
   box-shadow: 0 3px 6px var(--shadow-color);
   background-color: var(--background-color);
   color: var(--text-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: var(--primary-color);
+    text-shadow: 0 1px 3px var(--shadow-color);
+    span {
+      color: var(--text-color);
+    }
+  }
+}
+.container {
+  padding-inline: 15vh;
 }
