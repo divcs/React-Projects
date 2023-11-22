@@ -39,6 +39,14 @@ a {
       color: var(--text-color);
     }
   }
+  .nav-links {
+    a {
+      margin-left: 1em;
+      color: var(--text-light);
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+  }
 }
 .container {
   padding-inline: 15vh;
