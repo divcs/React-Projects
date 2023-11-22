@@ -63,6 +63,10 @@ a {
           transform: scaleX(1);
         }
       }
+      &.active {
+        color: var(--primary-color);
+        font-weight: bold;
+      }
     }
   }
 }
