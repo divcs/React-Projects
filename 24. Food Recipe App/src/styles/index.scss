@@ -69,6 +69,45 @@ a {
       }
     }
   }
+  .sidebar-btn {
+    height: 28px;
+    width: 3px;
+    // background-color: red;
+    position: relative;
+
+    .bar {
+      border-radius: 5px;
+      height: 6px;
+      width: 100%;
+      background-color: var(--text-color);
+      position: absolute;
+      &:nth-child(1) {
+        top: 0;
+      }
+      &:nth-child(2) {
+        top: 50%;
+        transform-origin: right;
+        transform: scaleX(0.8) translateY(-50%);
+      }
+      &:nth-child(3) {
+        top: 100%;
+        transform-origin: right;
+        transform: scaleX(1.1) translateY(-100);
+      }
+    }
+    &.active {
+      .bar {
+        transform-origin: center;
+        top: 50;
+        &:nth-child(1) {
+          transform: rotate(45deg) translateY(-50%);
+        }
+        &:nth-child(3) {
+          transform: rotate(-45deg) translateY(-50%);
+        }
+      }
+    }
+  }
 }
 .container {
   padding-inline: 15vh;
